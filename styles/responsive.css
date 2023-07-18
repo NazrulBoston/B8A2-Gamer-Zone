@@ -1,7 +1,57 @@
-@media screen and (max-width:400px) {
 
-    .nav-container {
-     flex-direction: column ;
+/* responsive style for tablet */
+@media screen and (min-width:481px) and (max-width:768px){
+    .nav-container,
+    .banner-container
+   
+    {
+       flex-direction: column;
+       
+   }
+   .nav-items-container{
+       display: grid;
+       margin-top: 20px;
+       
+   }
+   .follow-us{
+    margin-top: 10px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive style for mobile  */
+
+@media screen and (max-width:480px){
+
+    .nav-container,
+    .banner-container
+   
+     {
+        
+        flex-direction: column;
     }
-    
+    .nav-items-container{
+        display: grid;
+      
+    }
+      
+   .follow-us{
+    margin-top: 10px;
+}
+.banner-container{
+    width: 100%;
+}
+   
 }

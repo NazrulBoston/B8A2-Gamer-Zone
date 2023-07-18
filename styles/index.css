@@ -1,7 +1,8 @@
-/* Shared style */
+/* work sans font added from google font */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* Shared style */
 * {
     margin: 0px;
     padding: 0px;
@@ -17,8 +18,9 @@
 .nav-container {
     display: flex;
     justify-content: space-around;
-    min-height: 130px;
+    /* height: 130px; */
     align-items: center;
+    margin-top: 54px;
 }
 
 .nav-logo-container {
@@ -38,9 +40,9 @@ h3 span {
 
 .nav-title {
     text-align: center;
-    font-size: 45px;
+    font-size: 2.8rem;
     font-weight: 700;
-}  
+}
 
 
 
@@ -50,7 +52,7 @@ h3 span {
 }
 
 
-.follow-us{
+.follow-us {
     width: 262px;
     height: 56px;
     flex-shrink: 0;
@@ -60,33 +62,131 @@ h3 span {
 }
 
 
-.about-us{
-color: #3C354F;
-font-size: 18px;
-font-weight: 500;
+.about-us {
+    color: #3C354F;
+    font-size: 1.25rem;
+    font-weight: 500;
 
 }
 
-.developer{
-color: #3C354F;
-font-size: 18px;
-font-weight: 500;
+.developer {
+    color: #3C354F;
+    font-size: 1.25rem;
+    font-weight: 500;
 
 }
 
-.follow-us{
-color: #3C354F;
-font-size: 18px;
-font-weight: 500;
+.follow-us {
+    color: #3C354F;
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 
 
- .color-youtube{
-    /* background-color: #F61C0D; */
-    color:#F61C0D;
+.color-youtube {
+    color: #F61C0D;
 }
 
-.color-tiktok{
+.color-tiktok {
     color: black;
 }
 
+/* Navbar style ends here */
+
+
+
+
+/* Banner container style started here */
+.banner-container {
+    background-image: url(../images/Group\ 14.png);
+    width:100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .banner-details {
+    width: 100%;
+    background-image: url("../images/Group\ 14.png");
+} */
+
+
+.banner-title {
+
+    padding-top: 148px;
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.goat {
+    margin-bottom: 24px;
+    font-size: 5.93rem;
+    font-weight: 800;
+    color;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.btn-classes {
+    margin-top: 42px;
+}
+
+.play {
+    margin-bottom: 17px;
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+
+.download {
+    margin-bottom: 17px;
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.group-people {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.sing-in {
+    color: #FFF;
+    border: 0px;
+    padding: 21px 40px;
+    gap: 10px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 48px;
+    text-transform: uppercase;
+    background: border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.rogue {
+    border: none;
+    padding: 21px 40px;
+    gap: 10px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+
+
+/* Banner container style ends here */

@@ -1,0 +1,92 @@
+/* Shared style */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/* Navbar styles here */
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    min-height: 130px;
+    align-items: center;
+}
+
+.nav-logo-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-img {
+    width: 86.026px;
+    height: 40.015px;
+}
+
+h3 span {
+    color: rgba(181, 10, 141, 0.925);
+}
+
+.nav-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}  
+
+
+
+.nav-items-container a {
+    margin-right: 32px;
+    text-decoration: none;
+}
+
+
+.follow-us{
+    width: 262px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 18px 24px;
+}
+
+
+.about-us{
+color: #3C354F;
+font-size: 18px;
+font-weight: 500;
+
+}
+
+.developer{
+color: #3C354F;
+font-size: 18px;
+font-weight: 500;
+
+}
+
+.follow-us{
+color: #3C354F;
+font-size: 18px;
+font-weight: 500;
+}
+
+
+ .color-youtube{
+    /* background-color: #F61C0D; */
+    color:#F61C0D;
+}
+
+.color-tiktok{
+    color: black;
+}
+

@@ -263,6 +263,14 @@ h3 span {
     font-weight: 700;
     margin-bottom: 16px;
 }
+.single-video :hover {
+   
+    cursor: pointer;
+    border: #0B0223;
+   border: 2px solid red;
+    
+    
+}
 
 .game-title-para {
     text-align: center;
@@ -279,6 +287,8 @@ h3 span {
     font-size: 3rem;
     font-weight: 700;
 }
+
+
 
 .games-videos {
     margin-top: 40px;
@@ -334,6 +344,8 @@ h3 span {
     width: 250px;
     top: -70px;
     margin-right: 60px;
+    top: -70px;
+   
 }
 
 .play-game-title {
@@ -352,8 +364,15 @@ h3 span {
     font-size: 3rem;
     font-weight: 700;
     line-height: 60px;
+   
 }
 
+.play-game-info{
+    font-size:1.19rem;
+font-weight: 400;
+line-height: 30px;t
+
+}
 
 
 
@@ -376,6 +395,11 @@ h3 span {
 
 }
 
+
+.first-game :hover{
+    cursor: pointer;
+ 
+}
 
 .games-item {
     display: flex;

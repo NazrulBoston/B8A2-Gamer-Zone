@@ -9,8 +9,18 @@
     }
 
     .nav-container {
-        text-align: center;
+       
     }
+
+    .nav-items-container{
+        margin-top: 40px;
+       
+    }
+.nav-items-container a{
+display: block;
+text-align: center;
+margin-top: 20px;
+}
 
     .follow-us {
         margin-top: 10px;

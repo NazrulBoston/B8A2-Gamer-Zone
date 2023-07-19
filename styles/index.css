@@ -99,16 +99,11 @@ h3 span {
 /* Banner container style started here */
 .banner-container {
     background-image: url(../images/Group\ 14.png);
-    width:100%;
+    width: 100%;
     margin-top: 40px;
     display: flex;
     justify-content: space-around;
 }
-
-/* .banner-details {
-    width: 100%;
-    background-image: url("../images/Group\ 14.png");
-} */
 
 
 .banner-title {
@@ -187,6 +182,65 @@ h3 span {
     background: #4EC5F7;
 }
 
-
-
 /* Banner container style ends here */
+
+.gamer-section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.gamer-container {
+    border-color:rgb(219, 146, 50);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.gamer-details {
+    text-align:end;
+   margin-right: 50px;
+
+}
+
+
+.gamer-details-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.gamer-para {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.gamer-btn {
+    border: none;
+    color: #FFF;
+    font-size: 1.35rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.our-propose {
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 32px;
+}
+
+.citetion{
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 45px;
+}

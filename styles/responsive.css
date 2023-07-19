@@ -2,22 +2,39 @@
 /* responsive style for tablet */
 @media screen and (min-width:481px) and (max-width:768px){
     .nav-container,
-    .banner-container
-   
+    .banner-container,
+    .gamer-container
     {
        flex-direction: column;
        
    }
    .nav-items-container{
-       display: grid;
-       margin-top: 20px;
+    display: grid;
+      text-align: center;
        
    }
    .follow-us{
     margin-top: 10px;
 }
 
+
+.banner-container img{
+    width: 100%;
 }
+.gamer-container img{
+    width: 100%;
+}
+
+.gamer-details{
+    text-align: center;
+}
+
+.banner-details{
+    text-align: center;
+}
+    
+}
+
 
 
 
@@ -36,10 +53,9 @@
 @media screen and (max-width:480px){
 
     .nav-container,
-    .banner-container
-   
-     {
-        
+    .banner-container,
+    .gamer-container
+     { 
         flex-direction: column;
     }
     .nav-items-container{
@@ -50,8 +66,15 @@
    .follow-us{
     margin-top: 10px;
 }
-.banner-container{
+.banner-container img{
+    width: 100%;
+}
+.gamer-container img{
     width: 100%;
 }
    
+.gamer-details{
+    text-align: center;
+}
+
 }

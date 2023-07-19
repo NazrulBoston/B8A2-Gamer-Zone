@@ -2,7 +2,8 @@
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .nav-container,
     .banner-container,
-    .gamer-container {
+    .gamer-container,
+    .play-games-container {
         display: flex;
         flex-direction: column;
     }
@@ -59,7 +60,8 @@
 
     .nav-container,
     .banner-container,
-    .gamer-container {
+    .gamer-container,
+    .play-games-container {
         flex-direction: column;
     }
 
@@ -83,3 +85,4 @@
 }
 
 }
+
